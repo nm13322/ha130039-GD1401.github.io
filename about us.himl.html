@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+<title>GD101</title>
+
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+form {
+  
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #35363a
+}
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:.hover {
+  opacity: 0.8
+  color: white;
+}
+	video
+	{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		 margin-top: auto;		 
+		 margin-left: auto;
+		 margin-right: auto;
+		 width: 70%;
+	}
+	h3
+	{
+		color: #000000 ;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: bold;
+		font-size: 200%;
+	}
+	p
+	{
+		color: #000000 ;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 150%;
+	}
+#more {display: none;}
+
+.footer {
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #353a40;
+   color: white;
+   text-align: center;
+}
+  	.fa {
+  		padding: 10px;
+  		font-size: 30px;
+  		width: 50px;height: 50px;
+  		text-align: center;
+  		text-decoration: none;
+  		margin: 5px 2px;
+  		border-radius: 50%;
+  	}
+  	.fa:hover {
+    opacity: 0.7;
+    }
+  	.fa-facebook {
+  		background: #3B5998;
+  		color: white;
+  	}
+  	.fa-youtube {
+  		background: #bb0000;
+  		color: white;
+  	}
+  	.fa-instagram {
+  		background: #125688;
+  		color: white;
+  	}
+  	.fa-behance {
+  		background: #55ACEE
+  	}
+</style>
+<!--------------------------------------------------------->
+  </head>
+<body style="background-color: #5a5a5a;">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+<a class="navbar-brand" href="code 3.html">MINI STUDIO</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav mr*-auto">
+    <li class="nav-item ">
+      <a class="nav-link" href="about us.himl.html">About Us</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link" href="Porfolio.html">Porfolio</a>
+    </li>
+    <li class="nav-item ">
+      <a class="nav-link" href="Contact Us.html">Contact Us</a>
+    </li>
+  </ul>
+  <ul class="navbar-nav ml-auto">
+  	<form class="form-inline" action="/action_page.php ">
+    	<input class="form-control mr-sm-2" type="text" placeholder="Search">
+    	<button class="btn btn-success" type="submit">Search</button>
+    </form>
+  </ul>
+</nav>
+
+<section>
+<br>
+<h1 style=" color: #FFFFFF;font-size: 50px; text-align: center;"> <b>About us</b></h1>
+<hr class="w-100" style="color:#FFFFFF">
+<br>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<img src="E:\gọi\renders\webb\web 2 -1\1\Asset 3.png" style="width: 500px ; height: auto">
+			</div>
+			<div class="col">
+				<h3 style="text-align: center;color:#FFFFFF;">
+					Welcome to Min Studio !
+				</h3>
+				<p style=";color:#FFFFFF">
+					Hello, welcome to my studio! Come here where you can be creative <span id="dots">...</span><span id="more"> and draw your own stories, and we will help you draw the stories you want to tell.
+				</span></p>
+				<button onclick="myFunction()" id="myBtn" type="button" class="btn btn-danger">Read more</button>
+
+				<script>
+					function myFunction() 
+					{
+						var dots = document.getElementById("dots");
+						var moreText = document.getElementById("more");
+						var btnText = document.getElementById("myBtn");
+					if (dots.style.display === "none") {
+					 dots.style.display = "inline";
+					 btnText.innerHTML = "Read more"; 
+					 moreText.style.display = "none";
+					} else {
+						dots.style.display = "none";
+						btnText.innerHTML = "Read less"; 
+						moreText.style.display = "inline";
+					}
+				}
+			</script>
+			</div>
+		</div>
+	</div>
+</section>
+<br>
+<form style="display: block;padding: 20px; " action="/action_page.php">
+  <div class="container">
+    <h2 style="color: #dc3645;font-size: 50px"><b>Subscribe to our Behance</b></h2>
+    <p style="color: #FFFFFF">There, we have a lot of products for everyone to see.</p>
+  </div>
+
+  <div  class="container" container=".container" >
+    <input  type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Behance
+    </label>
+  </div>
+
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+<div class="footer">
+  <p style="color: #FFFFFF ;font-size: 30px;">Follow me on</p>
+  <a style="margin-top: -20px" href="https://www.facebook.com/profile.php?id=100010988791959" class="fa fa-facebook"></a>
+  <a  style="margin-top: -20px" href="https://www.youtube.com/channel/UCJdEhOesl8SZZmmwt1ZDuqQ" class="fa fa-youtube"></a>
+  <a style="margin-top: -20px" href="https://www.instagram.com/m_mon_99/" class="fa fa-instagram"></a>
+  <a style="margin-top: -20px" href="https://www.behance.net/ngcminhnguyn1" class="fa fa-behance"></a>
+</div>
+
+</body>
+</html>
